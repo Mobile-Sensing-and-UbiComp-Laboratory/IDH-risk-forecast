@@ -1,4 +1,6 @@
 # IDH prediction
+This is the official code base for paper `Real Time Intradialytic Hypotension Forecasting Using Multimodal Deep Learning`
+
 
 ## Data Availability
 
@@ -104,8 +106,21 @@ Outputs go to `data/exp_res/<experiment>/`: `<experiment>_model_<fold>.pt`, `<ex
 
 All notebook outputs and metadata have been cleared. Analysis requires your own data/results/weights. Some revision-plot cells contain historical aggregate values; replace them with your own experiment summaries when reusing those plots. The inference plot retains historical calibration constants; recalibrate them for new models.
 
-## Scope and validation
+## 📝 Citation
 
-This is a local code-only release copy. Deployment/database integration, intervention simulation, ad-hoc exploration, standalone VAE files, alternate training/plot entry points, data, and checkpoints are excluded. See `RELEASE_NOTES.md` for provenance and the small compatibility edits.
+If you find our work helpful for your research, please consider citing the associated paper:
 
-Python/notebook syntax, local import targets, path/identifier scans, and preservation of the retained core model computations were checked. Training, preprocessing, and notebook execution have **not** been validated end to end in this environment.
+```
+@article{TBD,
+  author = {Yunfei Luo, Siwei Zhao, Subhasis Dasgupta, Joseph M Mahaffy, Peter Kotanko, Jerome Tannenbaum, Tauhidur Rahman*, Rakesh Malhotra*},
+  title = {Real Time Intradialytic Hypotension Forecasting Using Multimodal Deep Learning},
+  year = {2026},
+  publisher = {TBD},
+  url = {TBD},
+  doi = {TBD},
+  journal = {TBD},
+}
+```
+
+## 📃 License
+This project is licensed under the [Apache License 2.0](LICENSE).

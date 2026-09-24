@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+torch
+tqdm
+jupyterlab
+shap
+scikit-posthocs
+h5py
+transformers
+pytorch-pretrained-vit

@@ -1,0 +1,15 @@
+raw_data/
+data/
+figures/
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+*.pt
+*.pth
+*.pkl
+*.h5
+
+AGENTS.md

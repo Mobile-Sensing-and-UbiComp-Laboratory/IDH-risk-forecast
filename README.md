@@ -1,8 +1,20 @@
-# IDH prediction — stage 1
+# IDH prediction
+
+## Data Availability
+
+Because the dataset includes sensitive information, access will be provided only upon request and after a formal Data Access Agreement (DAA) has been signed. This process ensures adherence to institutional review board (IRB) requirements, participant consent provisions, and relevant privacy laws such as HIPAA and GDPR. The data contain potentially identifiable and/or clinical details that could carry a risk of re-identification, even after de-identification procedures. Therefore, a controlled access framework enables the authors to safeguard participant confidentiality, oversee appropriate data use, and confirm that any secondary analyses remain consistent with the original consent and study objectives. Researchers requesting access must demonstrate a valid scientific rationale, comply with usage restrictions, and implement appropriate data security measures. This approach aims to balance research transparency and reproducibility with the responsibility to protect participant privacy and institutional standards.
+
+For the detailed permission to access the data, please contact [jst@sanderlingllc.com](mailto:jst@sanderlingllc.com) and [r3malhotra@health.ucsd.edu](mailto:r3malhotra@health.ucsd.edu).
+
+## Code Availability
+
+The analytical code and executable version of the model for direct inference can be made available upon request within the context of research collaboration.
+
+The code is made available for educational and research use; for permission to use it in such contexts, please contact [trahman@ucsd.edu](mailto:trahman@ucsd.edu).
 
 ## Data structure
 
-Data, trained weights, and saved results are **not distributed**. The pipeline is:
+Data, trained weights, and saved results are **not distributed with this repository**. The pipeline is:
 **raw tables → patient records → samples + session history + care records → patient-level folds → training/results**.
 Use consistently pseudonymized integer patient/session IDs across all inputs; filenames must not contain extra underscores.
 
